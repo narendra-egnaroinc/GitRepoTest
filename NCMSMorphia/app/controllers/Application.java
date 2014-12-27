@@ -55,6 +55,7 @@ public class Application extends Controller {
 	  actAlarmObj.setNEDBAcessID(12312312);
 	  actAlarmObj.setModule(45);
 	  actAlarmObj.setPhysicalLoc(987456321);
+	  System.out.println("Im pushing to gitHub");
 	  //actAlarmObj.setAcknowledgement(acknowledgement);
     return ok(index.render("Your new application is ready."));
   }
